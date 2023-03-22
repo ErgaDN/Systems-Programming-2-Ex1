@@ -3,6 +3,8 @@
 #include <string.h>
 #include "AdptArray.h"
 
+// I was helped by the solution of the test in system programming, and in practice 11 of ADT.
+
 typedef struct AdptArray_
 {
     int ArrSize;
