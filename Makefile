@@ -17,6 +17,9 @@ mem_test: demo
 demo: Demo.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o demo
 
+myDemo: myDemo.o $(OBJECTS)
+	$(CXX) $(CXXFLAGS) $^ -o myDemo
+
 %.o: %.c $(HEADERS)
 	$(CXX) $(CXXFLAGS) --compile $< -o $@
 
